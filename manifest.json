@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "media-sync",
+    "version": "1.0",
+    "description": "",
+    "content_scripts": [
+      {
+        "matches": ["https://lengish.com/*", "https://youtube.com/*", "https://www.youtube.com/*"],
+        "js": ["dist/main.js"]
+      }
+    ]
+  }
